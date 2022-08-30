@@ -52,8 +52,8 @@ Universal GAN:
      $ python main_deepspeech.py: train only with DeepSpeech.
 
 **Note*:*
-When integreting different ASRs to generate adversarial audio CAPTCHAs, you need first deploy the running environment of the ASRs.
-In our project， we integrate [DeepSpeech 0.4.1](https://github.com/mozilla/DeepSpeech), [Lingvo](https://github.com/tensorflow/lingvo), [Wave2Letter+ and Jasper](https://github.com/NVIDIA/OpenSeq2Seq). All the pre-trained models of these ASRs can be download officially.
+When integrating different ASRs to generate adversarial audio CAPTCHAs, you need first deploy the running environment of the ASRs.
+In our project, we integrate [DeepSpeech 0.4.1](https://github.com/mozilla/DeepSpeech), [Lingvo](https://github.com/tensorflow/lingvo), [Wave2Letter+ and Jasper](https://github.com/NVIDIA/OpenSeq2Seq). All the pre-trained models of these ASRs can be download officially. And to integrate Wave2Letter+ and Jasper, we modified the code of OpenSeq2Seq to gain the logits.
 
 **Test**
 
