@@ -1,4 +1,4 @@
-﻿﻿﻿# AdvAudioCaptcha（Towards Improving the Security of Audio CAPTCHAs with Adversarial Examples）
+# AdvAudioCaptcha（Towards Improving the Security of Audio CAPTCHAs with Adversarial Examples）
 This is the official code for the paper "Towards Improving the Security of Audio CAPTCHAs with Adversarial Examples" by Ping Wang, Haichang Gao,  Xiaoyan Guo, Zhongni Yuan and Jiawei Nian.
 ## Prerequisites
  - Python(3.5)
