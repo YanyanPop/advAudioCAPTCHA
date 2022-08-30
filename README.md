@@ -18,6 +18,7 @@ We suggest to install the dependencies using Anaconda or Miniconda. And then ins
 ![image](picture/structure.png)
 
 **Preprocess**
+
 All the dataset should be:  single channel, int16, 16000Hz, wav format.
 
     $ python ./data/data_process_code/audio_format.py
