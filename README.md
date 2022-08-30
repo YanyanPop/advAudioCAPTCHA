@@ -5,6 +5,7 @@ This is the official code for the paper "Towards Improving the Security of Audio
  - Tensorflow(1.13.1)
  - CUDA
  - numpy
+ 
  More details are in requirements.
  
  ## Install
