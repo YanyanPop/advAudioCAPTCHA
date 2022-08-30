@@ -1,5 +1,4 @@
 # AdvAudioCaptcha（Towards Improving the Security of Audio CAPTCHAs with Adversarial Examples）
-=======
 This is the official code for the paper "Towards Improving the Security of Audio CAPTCHAs with Adversarial Examples" by Ping Wang, Haichang Gao,  Xiaoyan Guo, Zhongni Yuan and Jiawei Nian.
 ## Prerequisites
  - Python(3.5)
@@ -7,6 +6,7 @@ This is the official code for the paper "Towards Improving the Security of Audio
  - CUDA
  - numpy
  More details are in requirements.
+ 
  ## Install
 We suggest to install the dependencies using Anaconda or Miniconda. And then install prerequisites:
 
@@ -14,7 +14,6 @@ We suggest to install the dependencies using Anaconda or Miniconda. And then ins
 
 ## How to generate adversarial audio CAPTCHAs?
 **Preprocess**
-=======
 All the dataset should be:  single channel, int16, 16000Hz, wav format.
 
     $ python ./data/data_process_code/audio_format.py
@@ -35,7 +34,6 @@ And the length of transcriptions needs to be uniform,
     $ python ./data/data_process_code/unify_audio_tran.py
 
 **Train**
-=======
 
 For main experiments and ensemble training:
 
@@ -49,8 +47,11 @@ Universal GAN:
 
      $ python main_deepspeech.py: train only with DeepSpeech.
 
+**Note**
+When integreting different ASRs to generate adversarial audio CAPTCHAs, you need first deploy the running environment of the ASRs.
+In our project， we integrate [DeepSpeech 0.4.1](https://github.com/mozilla/DeepSpeech), [Lingvo](https://github.com/tensorflow/lingvo), [Wave2Letter+ and Jasper](https://github.com/NVIDIA/OpenSeq2Seq). All the pre-trained models of these ASRs can be download officially.
+
 **Test**
-=======
 
 For main experiments and ensemble training:
 
