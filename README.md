@@ -14,6 +14,7 @@ We suggest to install the dependencies using Anaconda or Miniconda. And then ins
 ## How to generate adversarial audio CAPTCHAs?
 
 **Preprocess**
+
 All the dataset should be:  single channel, int16, 16000Hz, wav format.
 
     $ python ./data/data_process_code/audio_format.py
@@ -34,6 +35,7 @@ And the length of transcriptions needs to be uniform,
     $ python ./data/data_process_code/unify_audio_tran.py
 
 **Train**
+
 For main experiments and ensemble training:
 
      $ python main_1asr.py # train only with DeepSpeech.
@@ -47,6 +49,7 @@ Universal GAN:
      $ python main_deepspeech.py: train only with DeepSpeech.
 
 **Test**
+
 For main experiments and ensemble training:
 
     $ python advGenerate2.py # test for K=2.
