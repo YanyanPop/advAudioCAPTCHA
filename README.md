@@ -22,7 +22,7 @@ We suggest to install the dependencies using Anaconda or Miniconda. And then ins
 All the dataset should be:  single channel, int16, 16000Hz, wav format.
 
     $ python ./data/data_process_code/audio_format.py
-  For reCAPTCHA v2, we need to cut out noise on both sides and pad.
+  For reCAPTCHA v2, you need to cut out noise on both sides and pad.
 
     $ python ./data/data_process_code/cut_noise.py
     $ python ./data/data_process_code/padding.py
