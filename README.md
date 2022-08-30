@@ -31,7 +31,7 @@ All the dataset should be:  single channel, int16, 16000Hz, wav format.
 
 And the length of transcriptions needs to be uniform,
 
-    ./data/data_process_code/unify_audio_tran.py
+    $ python ./data/data_process_code/unify_audio_tran.py
 
 **Train**
 For main experiments and ensemble training:
@@ -44,7 +44,7 @@ For main experiments and ensemble training:
 
 Universal GAN:
 
- - main_deepspeech.py: train only with DeepSpeech.
+     $ python main_deepspeech.py: train only with DeepSpeech.
 
 **Test**
 For main experiments and ensemble training:
