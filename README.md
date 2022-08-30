@@ -70,4 +70,4 @@ Universal GAN:
 
 
 ## Contact
-Please contact *** if you have any question on the codes. Enjoy!
+Please contact hchgao@xidian.edu.cn if you have any question on the codes. Enjoy!
