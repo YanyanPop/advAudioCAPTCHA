@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿﻿﻿# AdvAudioCaptcha（Towards Improving the Security of Audio CAPTCHAs with Adversarial Examples）
+=======
+# AdvAudioCaptcha（Towards Improving the Security of Audio CAPTCHAs with Adversarial Examples）
+>>>>>>> dfdf0dfe975f38c892a35fa8ad9d94bb049e8b71
 This is the official code for the paper "Towards Improving the Security of Audio CAPTCHAs with Adversarial Examples" by Ping Wang, Haichang Gao,  Xiaoyan Guo, Zhongni Yuan and Jiawei Nian.
 ## Prerequisites
  - Python(3.5)
@@ -13,6 +17,7 @@ We suggest to install the dependencies using Anaconda or Miniconda. And then ins
 
 ## How to generate adversarial audio CAPTCHAs?
 
+<<<<<<< HEAD
 
 
 ![image-20220830102108465](C:\Users\cxw\AppData\Roaming\Typora\typora-user-images\image-20220830102108465.png)
@@ -20,6 +25,10 @@ We suggest to install the dependencies using Anaconda or Miniconda. And then ins
 
 
 **Preprocess**
+=======
+**Preprocess**
+
+>>>>>>> dfdf0dfe975f38c892a35fa8ad9d94bb049e8b71
 All the dataset should be:  single channel, int16, 16000Hz, wav format.
 
     $ python ./data/data_process_code/audio_format.py
@@ -37,9 +46,16 @@ All the dataset should be:  single channel, int16, 16000Hz, wav format.
 
 And the length of transcriptions needs to be uniform,
 
+<<<<<<< HEAD
     ./data/data_process_code/unify_audio_tran.py
 
 **Train**
+=======
+    $ python ./data/data_process_code/unify_audio_tran.py
+
+**Train**
+
+>>>>>>> dfdf0dfe975f38c892a35fa8ad9d94bb049e8b71
 For main experiments and ensemble training:
 
      $ python main_1asr.py # train only with DeepSpeech.
@@ -50,9 +66,16 @@ For main experiments and ensemble training:
 
 Universal GAN:
 
+<<<<<<< HEAD
  - main_deepspeech.py: train only with DeepSpeech.
 
 **Test**
+=======
+     $ python main_deepspeech.py: train only with DeepSpeech.
+
+**Test**
+
+>>>>>>> dfdf0dfe975f38c892a35fa8ad9d94bb049e8b71
 For main experiments and ensemble training:
 
     $ python advGenerate2.py # test for K=2.
