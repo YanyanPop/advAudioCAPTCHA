@@ -13,12 +13,6 @@ We suggest to install the dependencies using Anaconda or Miniconda. And then ins
 
 ## How to generate adversarial audio CAPTCHAs?
 
-
-
-![image-20220830102108465](C:\Users\cxw\AppData\Roaming\Typora\typora-user-images\image-20220830102108465.png)
-
-
-
 **Preprocess**
 All the dataset should be:  single channel, int16, 16000Hz, wav format.
 
