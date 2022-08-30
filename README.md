@@ -13,6 +13,9 @@ We suggest to install the dependencies using Anaconda or Miniconda. And then ins
     $ pip install -r requirements.txt
 
 ## How to generate adversarial audio CAPTCHAs?
+
+![image](picture/structure.png)
+
 **Preprocess**
 All the dataset should be:  single channel, int16, 16000Hz, wav format.
 
